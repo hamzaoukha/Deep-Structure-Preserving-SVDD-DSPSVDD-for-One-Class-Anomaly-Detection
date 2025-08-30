@@ -1,0 +1,24 @@
+name: hamza-ml
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+      - jupytext
+      - mkdocs
+      - mkdocs-material
+      - pytest
+      - opencv-python
+      - torch
+      - torchvision
+      - torchaudio
+      - streamlit
+      - fastapi
+      - uvicorn

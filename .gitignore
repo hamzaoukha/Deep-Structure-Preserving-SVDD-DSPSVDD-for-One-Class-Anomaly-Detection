@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data & models
+data/*
+!data/.gitkeep
+runs/
+outputs/
+*.pt
+*.pth
+*.onnx
+
+# Node
+node_modules/
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Build
+dist/
+build/
+site/

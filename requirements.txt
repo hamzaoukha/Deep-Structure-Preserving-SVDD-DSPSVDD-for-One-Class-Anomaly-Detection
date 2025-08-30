@@ -1,0 +1,22 @@
+# Core
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+opencv-python
+jupyter
+jupytext
+mkdocs
+mkdocs-material
+pytest
+
+# PyTorch CPU (Colab can override with CUDA builds)
+torch
+torchvision
+torchaudio
+
+# Web demo
+streamlit
+fastapi
+uvicorn

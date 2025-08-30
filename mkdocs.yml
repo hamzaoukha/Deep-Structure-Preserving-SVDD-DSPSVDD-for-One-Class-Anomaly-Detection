@@ -1,0 +1,14 @@
+site_name: Hamza Projects
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - How to Run: how_to_run.md
+  - Deployment: deployment.md
+markdown_extensions:
+  - admonition
+  - codehilite
+  - tables
+  - toc:
+      permalink: true
